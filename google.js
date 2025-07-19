@@ -114,6 +114,7 @@ async function loadMenuAndGroup() {
               ${validUntil}
               <div class="counter">
                 <button onclick="decreaseQty('${name}')">-</button>
+                
                 <span id="qty-${name}">1</span>
                 <button onclick="increaseQty('${name}')">+</button>
               </div>

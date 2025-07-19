@@ -170,3 +170,6 @@ function selectSection(sectionName) {
     document.getElementById("cart-container")?.classList.add("show");
   }
 });
+window.addEventListener("load", () => {
+  document.querySelector(".loader-wrapper")?.classList.add("hidden");
+});
