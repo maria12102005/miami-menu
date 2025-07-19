@@ -165,4 +165,8 @@ function selectSection(sectionName) {
     console.log("❌ القسم غير معرف:", sectionName);
   }
   toggleSectionMenu();
-}
+}window.addEventListener("DOMContentLoaded", () => {
+  if (window.innerWidth < 600) {
+    document.getElementById("cart-container")?.classList.add("show");
+  }
+});
