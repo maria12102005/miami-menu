@@ -57,6 +57,8 @@ function addToCart(item, button = null) {
 
   if (button) flyToCart(button);
   updateCartDisplay();
+  document.getElementById("cart-container")?.classList.add("show");
+
 }
 
 // ❌ إزالة عنصر من السلة
